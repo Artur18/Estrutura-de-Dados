@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+	 
+	float notas [2];
+	
+	printf ("Digite a primeira nota: ");
+	scanf("%f", &notas[0]);
+	printf ("Digite a segunda nota: ");
+	scanf("%f", &notas[1]);
+	printf ("O aluno tirou as notas %.1f e %.1f.", notas[0], notas[1]);
+	
+	return 0;
+}

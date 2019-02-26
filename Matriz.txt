@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+	 
+	int vendas [2][3];
+	int i,j;
+	
+	for(i=0;j<=1;i++){
+			printf("Filial 0-: %d \n",i+1);
+			for (j=0;j<2;j++){
+				printf("Digite o item 0-: %d", j+1);
+				scanf ("%d", vendas[i,j]);	
+
+			}
+			system ("cls");			
+    }
+    printf("Itens cadastrados com sucesso!!!");
+	return 0;
+}
